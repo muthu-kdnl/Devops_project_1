@@ -27,7 +27,7 @@ def info():
     return JSONResponse(
         content={
             "service": "core-ops-service",
-            "runtime": "python-uvicorn",
+            "runtime": "python-uvicorn_gunicorn",
             "containerized": True
         }
     )
